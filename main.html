@@ -1,16 +1,66 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .pricing-card {
+            width: 300px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .pricing-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .pricing-card h1 {
+            font-size: 24px;
+            margin: 15px 0;
+        }
+        .pricing-card p.price {
+            font-size: 20px;
+            font-weight: bold;
+            color: #007BFF;
+        }
+        .pricing-card p.description {
+            font-size: 16px;
+            color: #555;
+        }
+        .pricing-card button {
+            padding: 10px 15px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .pricing-card button:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <div class="pricing-card">
+        <img src="https://via.placeholder.com/300" alt="Product Image">
+        <h1>Premium Plan</h1>
+        <p class="price">$29.99/month</p>
+        <p class="description">Get access to all premium features and priority support.</p>
+        <button>Buy Now</button>
+    </div>
 </body>
-
 </html>
